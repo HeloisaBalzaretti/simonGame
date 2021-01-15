@@ -78,9 +78,7 @@ function userPlays(colorClicked){
     blinkButton(colorClicked);
     playWrongSound();
     isGameOn = false;
-
-  }
- 
+  } 
 }
 //handle button clicks
 
@@ -98,18 +96,14 @@ $("#blue").click(handleClick);
 $("#yellow").click(handleClick);
 
 //detect keyboard click to start game.
-
-$(document).keydown(function () {
-  if(isGameOn === false){
+function startGame(){
+  if (isGameOn === false){
     gameSequencePlayed = [];
     userSequencePlayed = [];
     isGameOn = true;
     simonTurn();
-
-  //give first random to start game
-  //save randon list
-  
   }
-  
-});
+}
+$(document).keydown(startGame);
+$(".underline").click(startGame);
 

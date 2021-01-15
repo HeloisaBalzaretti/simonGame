@@ -2,7 +2,10 @@ body {
   text-align: center;
   background-color: #011F3F;
 }
-
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
