@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #af0069;
 }
 .underline {
   text-decoration: underline;
@@ -36,18 +36,26 @@ body {
 
 .red {
   background-color: red;
+  background-image: url("images/cat1.png");
+  background-size: cover;
 }
 
 .green {
   background-color: green;
+  background-image: url("images/cat2.png");
+  background-size: cover;
 }
 
 .blue {
   background-color: blue;
+  background-image: url("images/cat3.png");
+  background-size: cover;
 }
 
 .yellow {
   background-color: yellow;
+  background-image: url("images/cat4.png");
+  background-size: cover;
 }
 
 .pressed {
